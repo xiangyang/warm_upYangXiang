@@ -47,7 +47,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="765">
+            <state line="8" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="84" selection-start="391" selection-end="391" vertical-scroll-proportion="0.22670025" vertical-offset="0" max-vertical-offset="1050">
+            <state line="9" column="10" selection-start="403" selection-end="404" vertical-scroll-proportion="0.33153638" vertical-offset="12" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -587,13 +587,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="3" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="990">
@@ -636,9 +629,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="84" selection-start="391" selection-end="391" vertical-scroll-proportion="0.22670025" vertical-offset="0" max-vertical-offset="1050">
+        <state line="9" column="10" selection-start="403" selection-end="404" vertical-scroll-proportion="0.33153638" vertical-offset="12" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
