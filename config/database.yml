@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: warm_up_development
   pool: 5
-  username: warm_up
+  #username: warm_up
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: warm_up_test
   pool: 5
-  username: warm_up
+  #username: warm_up
   password:
 
 production:
@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: warm_up_production
   pool: 5
-  username: warm_up
+  #username: warm_up
   password:
