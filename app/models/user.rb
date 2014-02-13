@@ -7,46 +7,40 @@ class User < ActiveRecord::Base
   MAX_USERNAME_LENGTH = 128
   MAX_PASSWORD_LENGTH = 128
 
-  def credentials?(user, pass)
-    temp = User.find_by(username: user, password: pass)
+  def credentials?
+    temp = User.find_by(username: username, password: password)
     if not temp
       ERR_BAD_CREDENTIALS
+    else
+      SUCCESS
     end
-    SUCCESS
   end
 
-  def uniqueUser?(user)
-    temp = User.find_by(username: user)
+  def uniqueUser?
+    temp = User.find_by(username: username)
     if temp
       ERR_USER_EXISTS
+    else
+      SUCCESS
     end
-    SUCCESS
   end
 
-  def badUser?(user)
-    if String(user).length > MAX_USERNAME_LENGTH || String(user).length == 0
+  def badUser?
+    if username.length > MAX_USERNAME_LENGTH || username.length == 0
       ERR_BAD_USERNAME
+    else
+      SUCCESS
     end
-    SUCCESS
   end
 
 
-  def badPassword?(pass)
-    if String(pass).length > MAX_PASSWORD_LENGTH || String(pass).length == 0
+  def badPassword?
+    if password.length > MAX_PASSWORD_LENGTH || password.length == 0
       ERR_BAD_PASSWORD
-    end
-    SUCCESS
-  end
-
-  def resetFixture
-    User.delete_all
-    respond_to do |format|
-      msg = { :errCode => User.SUCCESS}
-      format.json { render json:msg}
+    else
+      SUCCESS
     end
   end
 
-  def unitTests
-    end
 
 end

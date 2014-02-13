@@ -1,10 +1,10 @@
 WarmUp::Application.routes.draw do
-  post '/user/login', to: 'user#login'
-  post '/user/add', to: 'user#add'
+  post '/users/login', to: 'user#login', :defaults => { :format => 'json'}
+  post '/users/add', to: 'user#add', :defaults => { :format => 'json'}
   #reset database
-  post '/TESTAPI/resetFixture', to: 'users#resetFixture'
+  post '/TESTAPI/resetFixture', to: 'user#resetFixture', :defaults => { :format => 'json'}
   #run unittests
-  post '/TESTAPI/unitTests', to: 'users#unitTest'
+  post '/TESTAPI/unitTests', to: 'user#unitTests', :defaults => { :format => 'json'}
 
 
   # The priority is based upon order of creation: first created -> highest priority.
