@@ -2,9 +2,9 @@ WarmUp::Application.routes.draw do
   post '/users/login', to: 'users#login'
   post '/users/add', to: 'users#add'
   #reset database
-  post '/TESTAPI/resetFixture', to: 'testApi#resetFixture'
+  post '/TESTAPI/resetFixture', to: 'users#resetFixture'
   #run unittests
-  post '/TESTAPI/unitTests', to: 'testApi#unitTest'
+  post '/TESTAPI/unitTests', to: 'users#unitTest'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

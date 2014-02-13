@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="6" selection-start="586" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="720">
+            <state line="51" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.77329975" vertical-offset="458" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -80,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="51" selection-start="258" selection-end="258" vertical-scroll-proportion="0.22670025" vertical-offset="0" max-vertical-offset="1050">
+            <state line="7" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -109,10 +109,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/user_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/test_api_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -614,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="586" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/user_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="735">
@@ -637,7 +630,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="258" selection-end="258" vertical-scroll-proportion="0.22670025" vertical-offset="0" max-vertical-offset="1050">
+        <state line="7" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.77329975" vertical-offset="458" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
