@@ -1,6 +1,6 @@
 WarmUp::Application.routes.draw do
-  post '/users/login', to: 'users#login'
-  post '/users/add', to: 'users#add'
+  post '/user/login', to: 'user#login'
+  post '/user/add', to: 'user#add'
   #reset database
   post '/TESTAPI/resetFixture', to: 'users#resetFixture'
   #run unittests
